@@ -11,19 +11,19 @@
 // The car is moving forward at 82 mph
 // SLOW DOWN!
 
-function go (direction, speed){
-    console.log(`The car is moving ${direction}, at ${speed} mph.`);
-    if(speed>75){
-    console.log("SLOW DOWN!");
-    }
-}
+// function go (direction, speed){
+//     console.log(`The car is moving ${direction}, at ${speed} mph.`);
+//     if(speed>75){
+//     console.log("SLOW DOWN!");
+//     }
+// }
 
-go("forward", 85);
-go("backwards", 23);
-go("left", 47);
-go("right", 92);
-go("up", 19000);
-go("down", 12);
+// go("forward", 85);
+// go("backwards", 23);
+// go("left", 47);
+// go("right", 92);
+// go("up", 19000);
+// go("down", 12);
 
 
 
@@ -32,17 +32,17 @@ go("down", 12);
 
 // Given the following set of data about chicken birth rates, you need to filter out the objects where the birth rate value is greater than 15 per 1000 chickens for that year. Store the good years in a new array named `bestYears`.
 
-const birthRates = [
-    { year: 1969, birthRate: 13}, 
-    { year: 1970, birthRate: 16}, 
-    { year: 1971, birthRate: 15}, 
-    { year: 1972, birthRate: 11}, 
-    { year: 1973, birthRate: 18}, 
-    { year: 1974, birthRate: 17}, 
-    { year: 1975, birthRate: 9}
-  ];
+// const birthRates = [
+//     { year: 1969, birthRate: 13}, 
+//     { year: 1970, birthRate: 16}, 
+//     { year: 1971, birthRate: 15}, 
+//     { year: 1972, birthRate: 11}, 
+//     { year: 1973, birthRate: 18}, 
+//     { year: 1974, birthRate: 17}, 
+//     { year: 1975, birthRate: 9}
+//   ];
 
-const bestYears = [];
+// const bestYears = [];
 
 // for (let i=0; i<birthRates.legnth; i++){
 //     const currentYear = birthRates[i];
@@ -79,3 +79,21 @@ const bestYears = [];
 // }
 
 // politician.platform.money
+
+// function blaaa (num1, num2){
+// console.log(num1+num2);
+// }
+
+// function bleee (num1, num2){
+// console.log(num1-num2);
+// }
+
+// function calculate(a,b,operator){
+//     operator(a,b)
+// }
+
+// blaaa(45,52);
+
+// bleee(100,150);
+
+// calculate(1,3,blaaa)
